@@ -32,6 +32,7 @@
 #include "satnogs/noaa_apt_sink.h"
 #include "satnogs/frame_file_sink.h"
 #include "satnogs/iq_sink.h"
+#include "satnogs/quad_demod_filter_ff.h"
 %}
 
 
@@ -101,3 +102,5 @@ GR_SWIG_BLOCK_MAGIC2(satnogs, frame_file_sink);
 
 %include "satnogs/iq_sink.h"
 GR_SWIG_BLOCK_MAGIC2(satnogs, iq_sink);
+%include "satnogs/quad_demod_filter_ff.h"
+GR_SWIG_BLOCK_MAGIC2(satnogs, quad_demod_filter_ff);
