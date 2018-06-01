@@ -25,9 +25,10 @@ for decoding signals from various scientific and academic sattelites.
 1. `git clone https://gitlab.com/librespacefoundation/satnogs/gr-satnogs.git`
 2. `cd gr-satnogs`
 3. `mkdir build`
-4. `cmake ..`
-5. `make`
-6. `sudo make install`
+4  `cd build`
+5. `cmake ..`
+6. `make`
+7. `sudo make install`
 
 If this is the first time you are building the gr-satnogs module run
 `sudo ldconfig`
